@@ -5,7 +5,7 @@ def chatbot(message, history):
     msg = message.lower()
 
     if "hello" in msg or "hi" in msg:
-        return "Hello."
+        return "Helloooo."
     elif "profit" in msg:
         return "Profit = Selling Price - Cost Price."
     elif "discount" in msg:
